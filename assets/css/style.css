@@ -33,10 +33,9 @@ a.link-profile img {
 
 div.body-content {
     height: 100%;
-    overflow-y: hidden;
 }
 
-div.user-image > img {
+div.user-image>img {
     width: 80px;
     border-radius: 50px;
 }
@@ -53,28 +52,16 @@ aside .aside-header {
 
 /* ASIDE COLLAPSE */
 
-.container-fluid {
-    height: 100%;
-    overflow-y: hidden;
+aside.aside-close {
+    flex: 0 0 50px;
 }
 
-.left-aside-collapse {
-    max-width: 50px;
-}
-
-.left-aside-collapse a > span {
+aside.aside-close span,
+aside.aside-close .user-info {
     display: none;
 }
 
-.left-aside-collapse .user-info {
-    display: none;
-}
-
-.left-aside-collapse .user-image > img {
+aside.aside-close .user-image>img {
     width: 30px;
-    border-radius: 20px;
-}
-
-.left-aside-collapse .main-menu li.nav-item > .nav-link {
-    padding-top: 1em;
+    height: 30px;
 }
