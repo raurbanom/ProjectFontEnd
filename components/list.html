@@ -10,8 +10,7 @@
 </nav>
 
 <div class="container">
-    <div class="row" id="books">
-    </div>
+    <div class="row" id="books"></div>
 </div>
 
 <script id="templateCards" type="text/ractive">
@@ -23,7 +22,7 @@
                 <div class="card-body">
                     <p class="card-text">{{volumeInfo.publisher}}</p>
                     <p class="card-text">{{volumeInfo.publishedDate}}</p>
-                    <a href="#/detail/:id" class="btn btn-primary col-12 col-md-auto col-lg-auto">Ver Detalles</a>
+                    <a href="#/detail/{{id}}" class="btn btn-primary col-12 col-md-auto col-lg-auto">Ver Detalles</a>
                 </div>
             </div>
         </div>

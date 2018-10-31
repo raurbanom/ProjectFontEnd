@@ -20,6 +20,7 @@ var routes = [
         "path": "/detail/:id",
         "component": "detail.html",
         "controller": function (id) {
+
             $.getJSON("./data/books.json")
                 .done(function (response) {
                     let items = response.items;
