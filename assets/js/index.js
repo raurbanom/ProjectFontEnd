@@ -126,7 +126,13 @@ $(document).ready(function () {
 
 // ROUTER
 
-$(window).on("load, hashchange", function (evt) {
+$(window).on("load", function (evt) {
+    let event = evt.originalEvent;
+
+    router(event.target["location"]);
+});
+
+$(window).on("hashchange", function (evt) {
     let event = evt.originalEvent;
 
     router(event.target["location"]);
