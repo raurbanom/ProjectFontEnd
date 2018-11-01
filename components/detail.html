@@ -16,20 +16,18 @@
     <div class="row" id="book"></div>
 </div>
 
-<script id="templateBook" type="text/ractive"> 
-    <div class="card card-border">
-        <div class="row">
-          <div class="col-8">
-            <div class="card-block">
-              <h4 class="card-title">{{title}}</h4>
-              <p class="card-text">{{description}}</p>
-              <p class="card-text">{{publisher}}</p>
-              <p class="card-text">{{publishedDate}}</p>
-            </div>
-          </div>
-          <div class="col-4">
-                <img class="card-img-bottom" src="{{imageLinks.smallThumbnail}}" />
-          </div>
-        </div>
-      </div>
+<script id="templateBook" type="text/ractive">
+
+    <div class="col-12 col-md-8 col-lg-8">
+    <div class="card-block">
+        <h4 class="card-title">{{title}}</h4>
+        <p class="card-text">{{description}}</p>
+        <p class="card-text">{{publisher}}</p>
+        <p class="card-text">{{publishedDate}}</p>
+    </div>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4">
+        <img class="card-img-bottom" src="{{imageLinks.smallThumbnail}}" />
+    </div>
+      
 </script>
