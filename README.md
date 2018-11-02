@@ -2,12 +2,16 @@
 
 Project web application for Front-end course 
 
-# Run
+# Init
 
-npm run dev
+npm install
 
-# Other option
+npm install webpack webpack-cli --save-dev
 
-npm install http-server -g
+# Run webpack
 
-http-server --cors
+npx webpack
+
+# Run Server
+
+npx webpack-dev-server --open
