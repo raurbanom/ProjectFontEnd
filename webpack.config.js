@@ -8,7 +8,7 @@ const webpack = require("webpack");
 
 module.exports = {
     entry: {
-        app: "./src/assets/js/index.js"
+        app: "./src/assets/js/index.ts"
     },
     output: {
         filename: "[name].bundle.js",
