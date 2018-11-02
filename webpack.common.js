@@ -1,10 +1,10 @@
 const path = require("path");
 
-const CleanWebpackPlugin = require("clean-webpack-plugin");
-const CopyWebpackPlugin = require("copy-webpack-plugin");
-const HtmlnWebpackPlugin = require("html-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin")
+const CopyWebpackPlugin = require("copy-webpack-plugin")
+const HtmlnWebpackPlugin = require("html-webpack-plugin")
 
-const webpack = require("webpack");
+const webpack = require("webpack")
 
 module.exports = {
     entry: {
@@ -54,10 +54,5 @@ module.exports = {
             Ractive: ["ractive/ractive.min.js"]
         })
 
-    ],
-    devServer: {
-        contentBase: "./dist"
-    },
-
-    mode: "production"
+    ]
 }
