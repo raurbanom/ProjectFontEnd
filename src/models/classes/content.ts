@@ -6,13 +6,13 @@ export class Content {
 
     }
 
-    getContent(url: string, callback: any, param: number | string) {
+    getContent(url: string, callback: Function, param?: number | string) {
         $.ajax({
             url: url,
             type: "GET",
             dataType: "text",
             crossDomain: true,
-            success: function (response) {
+            success: function (this, response) {
                 $("#dynamicContent").html(response);
 
                 if (param != undefined) {

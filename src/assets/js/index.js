@@ -98,8 +98,7 @@ function router(ltn) {
                 }
             }
         }
-    }
-    );
+    });
 }
 
 $(document).ready(function () {
