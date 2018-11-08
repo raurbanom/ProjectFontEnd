@@ -2,6 +2,7 @@ import { IRoute } from "../interfaces/route";
 import { Content } from "./content";
 
 export class Router {
+
     routes: IRoute[];
     content: Content;
 
@@ -44,8 +45,9 @@ export class Router {
                     } else {
                         parts.shift();
                     }
-                }
+                }                
             }
         });
     }
+    
 }
