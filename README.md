@@ -1,4 +1,4 @@
-# Project Pokemon
+# Course of Front-End
 
 Project web application for Front-end course 
 
